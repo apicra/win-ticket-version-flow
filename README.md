@@ -10,3 +10,12 @@ Ten workflow uwzględnia:
 + lokalny system plików
 + repozytorium Github
 + npmjs
+
+command | local files | remote github | remote NPMJS |
+--- | --- | --- | --- | --- | --- |
+-create.bat | create | create | --- |
+-publish.bat |  | push, tag  | create |
+-ticket.bat |  | push | --- |
+-version.bat |  | tag | update |
+-delete.bat | delete | delete | delete |
+Latest ✔ | Latest ✔ | Latest ✔ | Latest ✔ | Latest ✔ | 11 ✔ |
