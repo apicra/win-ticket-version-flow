@@ -15,6 +15,6 @@ Ten workflow uwzględnia:
 | --- | --- | --- | --- |
 | -create.bat | create | create | --- |
 | -publish.bat | --- | push, tag | create |
-| -ticket.bat | --- | push | --- |
-| -version.bat | --- | tag | update |
+| **-ticket.bat** | --- | **push** | --- |
+| **-version.bat** | --- | **tag** | **update** |
 | -delete.bat | delete | delete | delete |
