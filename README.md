@@ -32,11 +32,17 @@ ticket version flow
 
 ## Usunięcie
 
-Apicra
+.apicra
 
-    RMDIR /Q/S .apicra
+    RMDIR /Q /S .apicra
 
+ticket version flow
 
+    del /f -create.bat
+    del /f -delete.bat
+    del /f -publish.bat
+    del /f -ticket.bat
+    del /f -version.bat
 
 ## Testowanie skrótowych komend
 zamiast:
