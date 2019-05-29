@@ -22,13 +22,22 @@ Ten workflow uwzględnia:
 
 ## Instalacja
 
-.apicra
+#### .apicra
 
     git clone https://github.com/apicra/npm-github-win.git .apicra
 
-ticket version flow
+#### ticket version flow
++ for empty folder
 
     git clone https://github.com/apicra/win-ticket-version-flow.git .
+
+
++ for not empty folder
+
+    git init
+    git remote add origin https://github.com/apicra/win-ticket-version-flow.git
+    git pull origin master
+
 
 ## Usunięcie
 
